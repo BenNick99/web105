@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>Javascript Image Control</h1>
+    </header>
+    <main class="container">
+      <div class="grid-container">
+        <img
+          src="images/avenue.jpg"
+          alt="a road in a forest"
+          id="img1"
+          onclick="change('images/avenue.jpg')"
+        />
+        <img src="images/fog.jpg" alt="" onclick="change('images/fog.jpg')" />
+        <img
+          src="images/forest-1.jpg"
+          alt="a forest"
+          id="img3"
+          onclick="change('images/forest-1.jpg')"
+        />
+        <img
+          src="images/forest-2.jpg"
+          alt="a forest"
+          id="img4"
+          onclick="change('images/forest-2.jpg')"
+        />
+        <img
+          src="images/nature.jpg"
+          alt="tress in mountain"
+          id="img5"
+          onclick="change('images/nature.jpg')"
+        />
+      </div>
+      <div id="main-image">
+        <img src="images/road.jpg" alt="an empty road" id="large" />
+      </div>
+    </main>
+    <footer class="containter">
+      <p>&copy;2023 Ben Nickels</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

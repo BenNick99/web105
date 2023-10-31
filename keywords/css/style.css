@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fce8d5;
+    /* Pale orange background */
+    color: #333;
+    /* Dark gray text color */
+}
+
+header {
+    background-color: #ff8c42;
+    /* Bright orange header background */
+    color: #fff;
+    /* White text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    margin: 20px;
+}
+
+.image-container img {
+    max-height: 300px;
+    /* Set a maximum height to maintain aspect ratio */
+    border-radius: 5px;
+    padding-right: 20px;
+}
+
+section {
+    background-color: #fff;
+    /* White content background */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 24px;
+    color: #ff8c42;
+    /* Bright orange heading color */
+}
+
+section p {
+    font-size: 16px;
+    color: #555;
+    /* Dark gray text color */
+}
+
+footer {
+    background-color: #ff8c42;
+    /* Bright orange footer background */
+    color: #fff;
+    /* White text color */
+    text-align: center;
+    padding: 10px 0;
+}

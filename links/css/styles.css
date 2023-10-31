@@ -1,0 +1,36 @@
+body{
+    background: rgb(187, 122, 122);
+    color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 50px;
+    background: dimgray;
+    color: yellow;
+    padding: 10px 20px;
+    border-radius: 20%;
+    border: 3px solid dimgray
+}
+
+nav a:hover{
+color: yellow;
+background: rgb(187,122,122);
+}
+
+li a{
+    line-height: 2;
+    color: rgb(191, 202, 36);
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li a hover{
+    text-decoration:underline;
+}

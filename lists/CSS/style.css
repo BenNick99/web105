@@ -1,0 +1,30 @@
+body{
+    background: rgb(47, 84, 113);
+    color: ivory;
+    font-size: large;
+    line-height: 1.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+ul{
+   list-style-type: "\26F3"; /*unicode for golf*/
+}
+
+ul ul{
+    list-style-type: "\2614"; /*unicode for umbrella*/
+}
+
+ol{
+    color: rgb(235, 229, 222);
+}
+
+ol ol{
+    color: bisque;
+}
