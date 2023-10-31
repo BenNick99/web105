@@ -1,0 +1,80 @@
+:root{
+    --light: #26ba2d;
+    --dark: #2f842c;
+    --darker: #2d7532;
+    --darkest: #0c4b17;
+    --background: #302e2e;
+
+    --type: font-family: 'Noto Sans', sans-serif;
+    --headings: font-family: 'Averia Serif Libre', serif;
+}
+
+body{
+    background: var(--background);
+}
+
+h1,h2,h3{
+    font-family: var(--headings);
+    color: var(--light);
+    text-align: center;
+}
+
+p, a{
+    font-family: var(--type);
+    font-weight: bold;
+    color:ivory;
+}
+
+nav{
+    text-align: center;
+    padding: 20px;
+}
+
+nav a{
+    background: lightgrey;
+    padding: 10px 30px;
+    margin: 10px;
+    color: rgb(161, 154, 154);
+    text-decoration: none;
+    background: var(--dark);
+    border-radius: 10px;
+}
+
+nav a:hover{
+    color: ivory;
+    background: var(--darkest);
+}
+
+img{
+    position: relative;
+    left: 25%;
+    margin: 10px;
+    width: 50%;
+    display: block;
+}
+
+.container{
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid green;
+}
+
+footer{
+    color: var(--darkest);
+    text-align: center;
+}
+
+form{
+    color:ivory;
+}
+
+input{
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid grey;
+}
+
+input:focus{
+    background-color: beige;
+}
