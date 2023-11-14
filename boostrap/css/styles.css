@@ -1,0 +1,193 @@
+:root{
+    --light: #9ccce7;
+    --dark: #8789c0;
+    --darker: #6a8fd9;
+    --darkest: #5AD7DB;
+    --background: #49317e;
+
+    --type: font-family:  'Montserrat', sans-serif;
+    --headings: font-family:   'Lato', sans-serif;
+}
+
+.masthead {
+    background-color: #690707;
+    color: #e9ef95;
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+body{
+    background-color: var(--background);
+    color: #edecfb;
+}
+
+h1,h2,h3{
+    font-family: 'Lato',
+        sans-serif;
+    color: var(--light);
+    text-align: center;
+}
+
+p, a{
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: bold;
+    
+    
+}
+
+figcaption{
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+
+nav{
+    text-align: center;
+    padding: 20px;
+}
+
+nav a{
+    background: lightgrey;
+    padding: 10px 30px;
+    margin: 10px;
+    color: #edecfb;
+    text-decoration: none;
+    background: var(--dark);
+    border-radius: 10px;
+}
+
+nav a:hover, #current{
+    color: ivory;
+    background: var(--darkest);
+}
+
+img {
+    position: relative;
+    margin: 10px;
+    width: 100%;
+    display: block;
+}
+
+div{
+    max-height: auto;
+}
+
+.container{
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    border: 5px solid var(--light);
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+footer{
+    color: var(--darkest);
+    text-align: center;
+}
+
+#float-left img {
+    float: left;
+    width: 30%;
+    margin: 10px;
+    object-fit: contain;
+}
+
+
+/* For mobile phones: */
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+
+
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
