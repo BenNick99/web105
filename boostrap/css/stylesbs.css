@@ -12,6 +12,13 @@
     margin: 20px auto;
 }
 
-#nav{
-  
+.carousel-inner{
+    background: black;
+    min-height: 65vh;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-inner img{
+    margin-left: 30%;
 }
