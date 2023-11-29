@@ -1,3 +1,14 @@
+:root {
+    --light: #6EF08E;
+    --dark: #73F0E6;
+    --darker: #36F0A3;
+    --darkest: #6FF05D;
+    --background: #4DC8F0;
+
+    --type: font-family: 'Montserrat', sans-serif;
+    --headings: font-family: 'Lato', sans-serif;
+}
+
 .masthead {
     background-color: #3a3dc8;
     color: #e9ef95;
@@ -6,19 +17,91 @@
    
 }
 
+body {
+    background-color: var(--background);
+    color: #edecfb;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato',
+        sans-serif;
+    color: #e9ef95;
+    text-align: center;
+}
+
+p, a {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color:#262845;
+
+
+}
+
+nav a {
+    padding: 10px 30px;
+    margin: 10px;
+    color: #edecfb;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav a:hover, #current {
+    color: ivory;
+    background: #928f8f;
+}
+
+.container{
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    border: 5px solid #e9ef95;
+    border-radius: 3%;
+    background: var(--light);
+    box-sizing: border-box;
+    overflow: auto;
+}
+
 #dq {
     width: 80%;
     display: block;
     margin: 20px auto;
 }
 
+
 .carousel-inner{
     background: black;
-    min-height: 65vh;
     width: 100%;
-    position: relative;
 }
 
-.carousel-inner img{
+.d-block carousel-inner-img{
     margin-left: 30%;
+    max-height: fit-content;
+}
+#img-help{
+    padding: 5px;
+}
+.resize{
+    width: 60%;
+    margin: auto;
+    border-right: 50px solid black;
+    border-left: 50px solid black;
+}
+img {
+    position: relative;
+    margin: 10px;
+    width: 100%;
+    display: block;
+}
+
+div {
+    max-height: auto;
+}
+
+#float-left img {
+    float: left;
+    width: 30%;
+    margin: 10px;
+    object-fit: contain;
 }

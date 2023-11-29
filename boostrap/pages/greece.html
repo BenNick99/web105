@@ -3,6 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore Ancient Greece's grandeur with images of majestic temples, historical ruins, and legendary figures. A virtual journey into the rich cultural tapestry of this extraordinary civilization."
+    />
+    <meta
+      name="keywords"
+      content="Ancient Greece, history, temples, ruins, civilization, virtual journey"
+    />
     <!-- Latest compiled and minified CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -20,7 +28,7 @@
     />
     <link rel="stylesheet" href="../css/stylesbs.css" />
   </head>
-  <div class="container-fluid masthead bg-info">
+  <div class="container-fluid masthead">
     <h1 class="h1 display-3">Flavorful Flicks</h1>
   </div>
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
@@ -32,29 +40,110 @@
       <a class="navbar-brand" href="../pages/stadium.html">Stadiums</a>
     </div>
   </nav>
-
-  <body>
-    <div class="container mt-3">
-      <h3>Ancient Structures</h3>
-
-      <button
-        type="button"
-        class="btn btn-primary"
-        data-bs-toggle="tooltip"
-        title="So cool!"
-      >
-        Hover over me!
-      </button>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Ancient Greece</h2>
     </div>
-
-    <script>
-      // Initialize tooltips
-      var tooltipTriggerList = [].slice.call(
-        document.querySelectorAll('[data-bs-toggle="tooltip"]')
-      );
-      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl);
-      });
-    </script>
-  </body>
+  </div>
+  <main class="container">
+    <body>
+      <div class="row">
+        <div class="col-md-3">
+          <p>
+            Welcome to our webpage dedicated to the captivating history of
+            Ancient Greece! In this virtual journey, we'll accompany you through
+            a stunning collection of images that bring to life the incredible
+            achievements.
+          </p>
+          <img
+            src="../images/greece1.jpg"
+            alt="the parthenon"
+            class="rounded"
+          />
+          <!--pic from pixabuy-->
+        </div>
+        <div class="col-md-3">
+          <img
+            src="../images/greece2.jpg"
+            alt="the parthenon"
+            class="img-thumbnail"
+          />
+          <!--pic from pixabuy-->
+          <img
+            src="../images/greece3.jpg"
+            alt="an ancient statue"
+            class="img-thumbnail"
+          />
+          <!--pic from pixabuy-->
+        </div>
+        <div class="col-md-3">
+          <img
+            src="../images/greece4.jpg"
+            alt="some ruins"
+            class="img-thumbnail"
+          />
+          <!--pic from pixabuy-->
+          <img
+            src="../images/greece5.jpg"
+            alt="the erechtheion"
+            class="img-thumbnail"
+          />
+          <!--pic from pixabuy-->
+        </div>
+        <div class="col-md-3">
+          <p>
+            The legacy of this remarkable civilization. Ancient Greece, known
+            for its rich history and contributions to the world, offers us a
+            glimpse into the past. From the majestic temples with their grand
+            columns.
+          </p>
+          <img
+            src="../images/greece6.jpg"
+            alt="ancient greece building"
+            class="rounded"
+          />
+          <!--pic from pixabuy-->
+          <div class="offcanvas offcanvas-start" id="demo">
+            <div class="offcanvas-header">
+              <h1 class="offcanvas-title">Captions</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>From left to right:</p>
+              <p>
+                Listed are two pictures of the Parthenon, an ancient statue,
+                some ruins, then the Erechtheion, and another ancient building.
+              </p>
+            </div>
+          </div>
+          <div class="container-fluid mt-3">
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#demo"
+            >
+              Captions
+            </button>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <p>
+            The timeless ruins that have withstood the test of time, the
+            architectural wonders of Ancient Greece are nothing short of
+            breathtaking. Join us in this exploration of Ancient Greece's
+            splendor as we invite you to step back in time and immerse yourself
+            in the cultural and historical richness that has left an indelible
+            mark on the world. The images on this page offer a window into the
+            fascinating history and enduring beauty of this extraordinary
+            civilization.
+          </p>
+        </div>
+      </div>
+    </body>
+  </main>
 </html>
